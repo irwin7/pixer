@@ -64,6 +64,14 @@ header{
   z-index: 1000;
 }
 
+.header-logo:hover{
+  opacity: 0.8;
+}
+
+.header-logo:active{
+  opacity: 0.4;
+}
+
 .header-btn:hover{
   background: #FFFFFF;
   color: #00BAFC;
@@ -458,14 +466,14 @@ footer p{
   color: #00BAFC;
 }
 
-.footer-colmun-3-item{
+.footer-link{
   margin-bottom: 8px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
 
-.footer-colmun-3-item::before{
+.footer-link::before{
   content: "";
   display: inline-block;
   background-image: url('../img/telegram.svg');
@@ -482,8 +490,7 @@ footer p{
   background-image: url('../img/instagram.svg');
 }
 
-.footer-colmun-3-item a:active{
-  color: #00BAFC;
+.footer-link:active{
   opacity: 0.6;
 }
 

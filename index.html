@@ -154,11 +154,12 @@
           <h2 class="order-title">Buyurtma berish</h2>
           <p class="order-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
           <div class="order-inputs">
-            <form action="https://echo.htmlacademy.ru/">
+            <form action="https://echo.htmlacademy.ru/" method="POST">
+                <label for="f-name"></label>
+                <input type="text" placeholder="Ismingiz" name="first-name" class="name-input" required id="f-name">
               
-                <input type="text" placeholder="Ismingiz" name="first-name" class="name-input" required>
-              
-                <input type="tel" placeholder="Telefon raqamingiz" name="phone-number" class="phone-input" required>
+                <label for="phone-number"></label>
+                <input type="tel" placeholder="Telefon raqamingiz" name="phone-number" class="phone-input" required id="phone-number">
               
                 
                 <select name="xizmat-turi" id="xizmat-turi">
@@ -200,9 +201,9 @@
       <div class="footer-column-3">
         <p>Biz internetda</p>
         <ul>
-          <li class="footer-colmun-3-item telegram"><a href="#" target="_blank">Telegram</a></li>
-          <li class="footer-colmun-3-item facebook"><a href="#" target="_blank">Facebook</a></li>
-          <li class="footer-colmun-3-item instagram"><a href="#" target="_blank">Instagram</a></li>
+          <li class="footer-colmun-3-item "><a href="#" target="_blank" class="footer-link telegram">Telegram</a></li>
+          <li class="footer-colmun-3-item "><a href="#" target="_blank" class="footer-link facebook">Facebook</a></li>
+          <li class="footer-colmun-3-item "><a href="#" class="instagram footer-link" target="_blank">Instagram</a></li>
         </ul>
       </div>
     </div>
